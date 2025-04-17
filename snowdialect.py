@@ -69,6 +69,7 @@ ischema_names = {
 
 class SnowflakeDialect(default.DefaultDialect):
     name = 'snowflake'
+    driver = 'snowflake'
     max_identifier_length = 65535
 
     encoding = UTF8
